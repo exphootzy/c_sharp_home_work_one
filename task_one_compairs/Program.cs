@@ -10,6 +10,8 @@ int num_one = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
 int num_two = Convert.ToInt32(Console.ReadLine());
 
+Console.Write("Наибольшее число: ");
+
 if (num_one > num_two)
 {
     Console.WriteLine(num_one);
