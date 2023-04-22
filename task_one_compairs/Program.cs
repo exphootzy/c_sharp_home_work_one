@@ -14,4 +14,5 @@ if (num_one > num_two)
 {
     Console.WriteLine(num_one);
 }
-else Console.WriteLine(num_two);
+else
+    Console.WriteLine(num_two);
