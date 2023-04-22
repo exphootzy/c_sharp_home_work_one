@@ -3,3 +3,15 @@
 // a = 5; b = 7 -> max = 7
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
+
+Console.WriteLine("Введите первое число");
+int num_one = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите второе число");
+int num_two = Convert.ToInt32(Console.ReadLine());
+
+if (num_one > num_two)
+{
+    Console.WriteLine(num_one);
+}
+else Console.WriteLine(num_two);
