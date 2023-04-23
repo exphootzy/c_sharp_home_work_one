@@ -9,7 +9,7 @@ int inputNumber = Convert.ToInt32(Console.ReadLine());
 int index = 0;
 int arrayMin = 1;
 
-Console.Write("Положительные числа: ");
+Console.Write("Четные числа: ");
 
 while (arrayMin <= inputNumber)
 {
