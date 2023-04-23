@@ -15,11 +15,15 @@ int num_three = Convert.ToInt32(Console.ReadLine());
 
 int num_max = num_one;
 
-if (num_two > num_one)
+if (num_two > num_max)
 {
-    int num_max = num_two;
+    num_max = num_two;
 }
-    
+ if (num_three > num_max)
+ {
+    num_max = num_three;
+ }
+Console.Write($"Наибольшее число их трех: {num_max}");
 
 
 
